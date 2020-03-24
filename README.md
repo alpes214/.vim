@@ -27,6 +27,7 @@ vim
 3. build cscope - `<leader>cs` -- type `,cs`
 4. `C-]` - find function definition under cursor
 5. `C-\s` - find all places where function is used
+6. `<leader>b` - switch buffer
 
 ## Links
 1. Vim tutorial https://www.tutorialspoint.com/vim/index.htm

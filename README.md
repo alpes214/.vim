@@ -1,7 +1,8 @@
 # .vim
 
+## HOWTO install and start to use vim on Ubuntu
 ```
-docker runt --name my --ti ubunt bash
+docker run --name my --ti ubunt bash
 apt update
 cd ~
 apt -y install git

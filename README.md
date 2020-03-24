@@ -10,6 +10,27 @@ apt -y install vim
 export TERM=xterm-256color
 apt -y install exuberant-ctags
 apt -y install cscope
+vim
 ```
 
-Start vim 
+## Usage 
+### performance tips
+1. Remap `Caps Lock` to `Ctrl` -- this is almost manadatory
+2. `C-C` means `Ctrl-C` -- example of a shortcut
+3. `C-M` means `Enter`
+4. `C-H` means `Backspace`
+5. hjkl -- `left`, `down`, `up`, `right`
+
+### shortcuts
+1. leader `,`
+2. build ctags - `<leader>tags` -- type `,tags`
+3. build cscope - `<leader>cs` -- type `,cs`
+4. `C-]` - find function definition under cursor
+5. `C-\s` - find all places where function is used
+6. `gd` - select word
+7. `n` - search forward
+8. `N` - search backward
+9. `/` - enter search
+10. `:%s/<search>/<replace>/g` - replace everywhere
+11. `,b` - switch to buffer
+

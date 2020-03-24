@@ -21,7 +21,7 @@ vim
 4. `C-H` means `Backspace`
 5. hjkl -- `left`, `down`, `up`, `right`
 
-### shortcuts
+### shortcuts in view mode
 1. leader `,`
 2. build ctags - `<leader>tags` -- type `,tags`
 3. build cscope - `<leader>cs` -- type `,cs`
@@ -33,4 +33,15 @@ vim
 9. `/` - enter search
 10. `:%s/<search>/<replace>/g` - replace everywhere
 11. `,b` - switch to buffer
+12. `x` - delete character under the cursor
+13. `$` - got to end of the line
+14. `0` - go to begin of the line
+15. `w` - move one word forward
+16. `b` - move one word backward
+17. `v` - start selecting a text
+18. `y` - copy selected text
+19. `p` - paste selected text after current position
+20. `P` - paste selected  text before current position
+
+
 

@@ -1,5 +1,6 @@
 " execute pathogen#infect()
 
+set t_Co=256
 set hidden
 set nowrap
 set tabstop=4
